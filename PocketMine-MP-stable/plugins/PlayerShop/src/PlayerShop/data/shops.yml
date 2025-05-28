@@ -1,0 +1,11 @@
+# Format : shopId:
+#   owner: uuid
+#   owner_name: "Pseudo"
+#   world: worldName
+#   x: 0
+#   y: 64
+#   z: 0
+#   items:
+#     - item: <json>
+#       price: 1
+#   timestamp: 1716570000

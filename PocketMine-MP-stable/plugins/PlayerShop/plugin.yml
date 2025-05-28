@@ -1,0 +1,25 @@
+name: PlayerShop
+version: 1.0.0
+main: PlayerShop\Main
+api: 5.0.0
+author: Habyss
+softdepend:
+  - DiscordPHP
+  -
+
+
+commands:
+  shop:
+    description: Active ou désactive le mode boutique.
+    usage: "/shop"
+    permission: playershop.use
+  shopadmin:
+    description: Outils d'administration des shops.
+    usage: "/shopadmin <remove|list>"
+    permission: playershop.admin
+
+permissions:
+  playershop.use:
+    default: true
+  playershop.admin:
+    default: op
